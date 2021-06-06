@@ -8,6 +8,10 @@
 <form action="/action_page.php">
   <input type="file" id="myFile" name="cfp">
 </form>
+ 
+<?PHP
+echo shell_exec("one_clue_import_cfp.py 'parameter1'");
+?>
 
 <?php 
 print($_GET["cfp"]); ?>

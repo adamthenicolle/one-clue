@@ -6,9 +6,11 @@
   <p>import a .cfp file</p>
 
 <form action="/action_page.php">
-  <input type="file" id="myFile" name="filename">
+  <input type="file" id="myFile" name="cfp">
   <input type="submit">
 </form>
 
+Welcome <?php echo $_GET["cfp"]; ?><br>
+ 
 </body>
 </html>

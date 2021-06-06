@@ -133,6 +133,7 @@ def parsedowns(grid_entries):
 
     downs = []
 
+    
     for row in range(rows):
         for col in range(cols):
             if grid_entries[row][col] != '.' and (row == 0 or grid_entries[row - 1][col] == '.'):

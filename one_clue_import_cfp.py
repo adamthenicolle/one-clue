@@ -1,3 +1,5 @@
+## I owe so much to Brooke Husic and Adam Aaronson for teaching me code and helping me with this script
+
 import sys
 import re
 

@@ -5,9 +5,17 @@
  <br/>
   <p>import a .cfp file</p>
 
-<form action="/action_page.php">
   <input type="file" id="myFile" name="cfp">
-</form>
+  <button type="button" onclick="getInputValue();">Clue up</button>
+  <script>
+        function getInputValue(){
+            // Selecting the input element and get its value 
+            var inputVal = document.getElementById("myInput").value;
+            
+            // Displaying the value
+            alert(inputVal);
+        }
+
  
 <iframe src=cfp width="100%" height="300">
 </iframe>

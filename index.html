@@ -10,6 +10,14 @@
   </form>
   <button onclick="window.print()">Print this page</button>
 
+ <head>
+    <script src="script.js"></script>
+  </head>
+
+  <body onload="init()">
+    <input id="fileInput" type="file" name="file" />
+    <pre id="fileContent"></pre>
+  </body>
 
 </body>
 </html>
